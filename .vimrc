@@ -21,3 +21,8 @@ inoremap {}     {}
 
 set clipboard=unnamed "Fix clipboard copying.
 
+let g:javascript_plugin_jsdoc = 1
+silent! map <F3> :NERDTreeFind<CR>
+
+let g:jsx_ext_required = 0
+
